@@ -1,5 +1,7 @@
+//Name: Manoj Kumar Reddy Guttikonda. ID: A00258697.
+//Name: Naresh Kmanaboyana, ID: A00257027.
+//Name: Manikanta Reddy Sama, ID: A00255242.
 package com.example.lab7;
-
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -70,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.item1:
-                Toast.makeText(this,"Name: Manoj Kumar Reddy, Id: A00258697, Course: JAVA1001", Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"Name: Manoj Reddy, Course: JAVA1001, Name: Naresh, Course: JAVA1001,  Name: Manikantha, Course: JAVA1001", Toast.LENGTH_LONG).show();
                 return true;
         }
         return super.onOptionsItemSelected(item);
