@@ -14,7 +14,6 @@ import android.widget.TextView;
     public class settings extends AppCompatActivity {
 
         TextView tex1;
-        Button save_btn;
         Button cancel_btn;
 
 
@@ -24,7 +23,6 @@ import android.widget.TextView;
             setContentView(R.layout.activity_settings);
 
             tex1 = findViewById(R.id.tex1);
-            save_btn = findViewById(R.id.save_btn);
             cancel_btn = findViewById(R.id.cancel_btn);
             cancel_btn.setOnClickListener(new View.OnClickListener() {
                 @Override

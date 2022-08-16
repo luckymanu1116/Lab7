@@ -12,27 +12,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
-        android:text="Do you want to save the current scores "
+        android:text="Your current scores are Saved "
         android:textAlignment="center"
         android:textSize="25dp"
         tools:layout_editor_absoluteX="-6dp"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/save_btn"
-        android:layout_width="133dp"
-        android:layout_height="52dp"
 
-        android:text="Save"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="98dp"
-        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/cancel_btn"
         android:layout_width="133dp"
         android:layout_height="52dp"
-        android:text="Cancel"
+        android:text="Back"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="225dp"
         tools:layout_editor_absoluteY="98dp" />
