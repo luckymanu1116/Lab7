@@ -1,7 +1,10 @@
 package com.example.lab7;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -23,7 +26,14 @@ import android.widget.TextView;
             tex1 = findViewById(R.id.tex1);
             save_btn = findViewById(R.id.save_btn);
             cancel_btn = findViewById(R.id.cancel_btn);
+            cancel_btn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(settings.this, MainActivity.class));
+                }
+            });
 
         }
+
 
     }
